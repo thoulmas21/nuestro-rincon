@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestro Rincón</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Nuestro Rincón</h1>
+  <p class="intro">
+    holaa mira este es nuestro rincón de recuerdos de cada momento bello y lindo que pasamos juntos. 
+    No están todas las fotos y tampoco todas las cartas, poco a poco iré metiendo más. 
+    TE QUIERO MUCHO MI POLLO.
+  </p>
+
+  <div class="botones">
+    <button onclick="mostrarSeccion('recuerdos')">Recuerdos</button>
+    <button onclick="mostrarSeccion('canciones')">Nuestras Canciones</button>
+    <button onclick="mostrarSeccion('mensaje')">Mensaje de tu negro</button>
+  </div>
+
+  <div id="recuerdos" class="contenido oculto">
+    <h2>Fotos</h2>
+    <div class="galeria">
+      <img src="recuerdos/img1.jpg" alt="Foto 1">
+      <img src="recuerdos/img2.jpg" alt="Foto 2">
+      <img src="recuerdos/img3.jpg" alt="Foto 3">
+      <img src="recuerdos/img4.jpg" alt="Foto 4">
+    </div>
+
+    <h2>Videos</h2>
+    <div class="videos">
+      <video controls src="recuerdos/vid1.mp4" width="300"></video>
+      <video controls src="recuerdos/vid2.mp4" width="300"></video>
+      <video controls src="recuerdos/vid3.mp4" width="300"></video>
+       <video controls src="recuerdos/vid4.mp4" width="300"></video>
+      <video controls src="recuerdos/vid5.mp4" width="300"></video>
+      <video controls src="recuerdos/vid6.mp4" width="300"></video>
+      <video controls src="recuerdos/vid7.mp4" width="300"></video>
+      <video controls src="recuerdos/vid8.mp4" width="300"></video>
+      <video controls src="recuerdos/vid9.mp4" width="300"></video>
+      <!-- Agrega hasta vid9.mp4 -->
+    </div>
+  </div>
+
+  <div id="canciones" class="contenido oculto">
+    <h2>Nuestras canciones</h2>
+    <audio controls src="Nuestras canciones/cancion1.mp3"></audio>
+    <audio controls src="Nuestras canciones/cancion2.mp3"></audio>
+    <audio controls src="Nuestras canciones/cancion3.mp3"></audio>
+    <audio controls src="Nuestras canciones/cancion4.mp3"></audio>
+    <audio controls src="Nuestras canciones/cancion5.mp3"></audio>
+  </div>
+
+  <div id="mensaje" class="contenido oculto">
+    <h2>Mensaje de tu negro</h2>
+    <p>
+      hola yo sé que esto no es mucho ni algo extravagante, pero es un regalo especial. 
+      Quiero que sepas que esto que hemos estado hablando de irnos y casarnos, 
+      la propuesta fue de verdad, no son palabras, son hechos. Metas que se van a hacer realidad. 
+      Quiero que siempre tengas presente que solo tengo ojos para ti. 
+      Mi cabeza piensa en ti cada momento, cada instante. Siempre que me despierto pienso en ti 
+      y cuando me duermo pienso en ti.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
